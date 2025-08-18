@@ -1,0 +1,12 @@
+:root {
+    --banner: limegreen;
+    --font2: 'pikmin'
+}
+
+header {
+    height: 80px
+}
+
+#tabs {
+    width: 250px !important
+}
