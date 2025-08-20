@@ -3,11 +3,13 @@
 <head>
     <link rel="stylesheet" href="https://myekul.github.io/shared-assets/styles.css">
     <link rel="stylesheet" href="https://myekul.github.io/shared-assets/myekul/myekul.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/custom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link id='favicon' rel="shortcut icon" href='images/favicon.png'>
     <title>Pikmin Place</title>
     <script src="https://myekul.github.io/shared-assets/utils.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.min.js"></script>
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
     <script src="https://myekul.github.io/shared-assets/ballpit.js"></script>
@@ -18,30 +20,40 @@
         <header>
             <div class="container" style="gap:10px;padding-top:10px">
                 <img src="images/favicon.png" style="height:60px">
-                <div id="title"></div>
+                <div class="text-shadow" style="font-family: 'pikmin';font-size:200%;color:white">Pikmin Place</div>
             </div>
         </header>
         <main>
-            <div class="container headerRow" style="gap:8px">
-                Game<select id="dropdown_game" onchange="changeGame(this.value)">
-                    <option value="1" selected>1</option>
-                    <option value="2">2</option>
-                    <!-- <option value="3">3</option>
-                    <option value="4">4</option> -->
-                </select>
-                Area<select id="dropdown_area" onchange="action()" style="width:200px"></select>
-                <input id='checkbox_unique' type="checkbox" onchange="action()">Unique
+            <div class="sticky">
+                <div class="container headerRow" style="gap:8px">
+                    <div id="sidebarDiv"></div>
+                    <div id='collections' class="container" style="margin:0">
+                        <div id='piklopediaButton' class="button" style="width:40px" onclick="changeCollection('piklopedia')"><img
+                                src="images/2/piklopedia/Red Bulborb.png" style="height:20px"></div>
+                        <div id='treasureButton' class="button" style="width:40px" onclick="changeCollection('treasure')"><img
+                                src="images/2/treasure/129.png" style="height:20px">
+                        </div>
+                        <div id='candypopButton' class="button" style="width:40px" onclick="changeCollection('candypop')"><img
+                                src="images/2/candypop/Violet Candypop Bud.png" style="height:20px">
+                        </div>
+                        <div id="allButton" class="button" style="width:40px" onclick="changeCollection('all')">ALL</div>
+                    </div>
+                    <div class="dot"></div>
+                    <input id='checkbox_unique' type="checkbox" onchange="action()">Unique
+                </div>
+                <div class="progress"></div>
+                <div id="tabsDiv"></div>
             </div>
-            <div class="progress"></div>
-            <div id="tabsDiv"></div>
+            <div id="areaSelect" class="container"></div>
+            <div id="boardTitle" class="container sticky" style="top:90px;max-width: 50%;"></div>
             <div id="content"></div>
         </main>
         <footer></footer>
     </div>
 </body>
-<script src="code/variables.js"></script>
-
 <script src="code/general.js"></script>
+<script src="code/constants.js"></script>
+<script src="code/variables.js"></script>
 <script src="code/main.js"></script>
 
 </html>

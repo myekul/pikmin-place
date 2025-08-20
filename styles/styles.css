@@ -1,0 +1,40 @@
+:root {
+    --banner: limegreen;
+    --font2: 'pikmin'
+}
+
+header {
+    height: 80px
+}
+
+#tabs {
+    width: 250px !important
+}
+
+table {
+    background-color: var(--background1);
+}
+
+td {
+    text-align: center;
+}
+
+.no-select {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.selected {
+    text-shadow: none !important
+}
+
+#titleText,
+.text-shadow {
+    color:white;
+    text-shadow: 2px 2px 2px black
+}
+
+#myekuls{
+    font-size:90% !important
+}

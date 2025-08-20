@@ -1,41 +1,34 @@
 let allData
 let filteredData
-const areaSet = {
-    1: ["The Impact Site", "The Forest of Hope", "The Forest Navel", "The Distant Spring", "The Final Trial"],
-    2: [
-        ['Valley of Repose', 'Emergence Cave', 'Subterranean Complex', 'Frontier Cavern'],
-        ['Awakening Wood', 'Hole of Beasts', 'White Flower Garden', 'Bulblax Kingdom', 'Snagret Hole'],
-        ['Perplexing Pool', 'Citadel of Spiders', "Glutton's Kitchen", 'Shower Room', 'Submerged Castle'],
-        ['Wistful Wild', 'Cavern of Chaos', 'Hole of Heroes', 'Dream Den']
-    ]
-}
-let areaIDs
-function generateAreaDropdown() {
-    const game = document.getElementById('dropdown_game').value
-    const areas = areaSet[game]
-    if (game == 1) {
-        areaIDs = removeSpacesAndLowercase(areas)
-    } else {
-        areaIDs = []
-        areas.forEach(subArea => {
-            areaIDs.push(removeSpacesAndLowercase(subArea))
-        })
-        console.log(areaIDs)
-    }
-    let HTMLContent = `<option value='all' selected>All</option>`
-    areas.forEach((area, index) => {
-        if (game == 1) {
-            HTMLContent += `<option value='${areaIDs[index]}'>${area}</option>`
-        } else {
-            area.forEach((subArea, index2) => {
-                let spacer = index2 == 0 ? '' : '&nbsp;&nbsp;&nbsp;&nbsp;'
-                HTMLContent += `<option value='${areaIDs[index][index2]}'>${spacer + subArea}</option>`
-            })
+let globalGame
+let globalArea
+let globalCollection = 'all'
+function generateAreaSelect() {
+    let HTMLContent = ''
+    HTMLContent = `<table id='areaSelectTable' class='shadow' style='margin-bottom:10px'>
+    <tr class='text-shadow' style='font-family:var(--font2);color:gold;height:24px'>`
+    areaSet[globalGame].forEach(area => {
+        if (area.type == 'area') {
+            HTMLContent += `<td id='area_${area.id}Button' class='${area.id} grow' style='padding:0 10px;min-width:170px' colspan=${area.num} onclick="changeArea('${area.id}')">${area.name}</td>`
         }
     })
-    document.getElementById('dropdown_area').innerHTML = HTMLContent
+    HTMLContent += `<td id='area_allButton' rowspan=2 class='grow' style='background-color:mediumpurple;padding:0 10px' onclick="changeArea('all')">ALL</td>`
+    HTMLContent += `</tr>`
+    if (globalGame == 2) {
+        HTMLContent += `<tr>`
+        areaSet[2].forEach(area => {
+            if (area.type == 'cave') {
+                HTMLContent += `<td id='area_${area.id}Button' class='${area.area} grow' onclick="changeArea('${area.id}')">${getAreaIcon(area)}</td>`
+            }
+        })
+        HTMLContent += `</tr>`
+    }
+    document.getElementById('areaSelect').innerHTML = HTMLContent
 }
-generateAreaDropdown()
-function removeSpacesAndLowercase(arr) {
-    return arr.map(str => str.replace(/[\s']/g, '').toLowerCase());
+function buttonClick2(pressed, unpressed, className) {
+    document.querySelectorAll('#' + unpressed + ' td').forEach(button => {
+        button.classList.remove(className)
+    })
+    const button = document.getElementById(pressed)
+    button?.classList.add(className)
 }
