@@ -3,13 +3,13 @@ const areaSet = {
     1: ["The Impact Site", "The Forest of Hope", "The Forest Navel", "The Distant Spring", "The Final Trial"],
     2: [
         { name: "Valley of Repose", type: "area", num: 3 },
-        { name: "Emergence Cave", type: "cave", icon: 'candypop/purple' },
+        { name: "Emergence Cave", type: "cave", icon: 'candypop/Violet Candypop Bud' },
         { name: "Subterranean Complex", type: "cave", icon: 'piklopedia/Man-at-Legs' },
         { name: "Frontier Cavern", type: "cave", icon: 'piklopedia/Bulborb Larva' },
 
         { name: "Awakening Wood", type: "area", num: 4 },
         { name: "Hole of Beasts", type: "cave", icon: 'piklopedia/Empress Bulblax' },
-        { name: "White Flower Garden", type: "cave", icon: 'candypop/white' },
+        { name: "White Flower Garden", type: "cave", icon: 'candypop/White Candypop Bud' },
         { name: "Bulblax Kingdom", type: "cave", icon: 'piklopedia/Emperor Bulblax' },
         { name: "Snagret Hole", type: "cave", icon: 'piklopedia/Burrowing Snagret' },
 
