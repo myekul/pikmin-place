@@ -9,7 +9,7 @@ const areaSet = {
 
         { name: "Awakening Wood", type: "area", num: 4 },
         { name: "Hole of Beasts", type: "cave", icon: 'piklopedia/Empress Bulblax' },
-        { name: "White Flower Garden", type: "cave", icon: 'candypop/White Candypop Bud' },
+        { name: "White Flower Garden", type: "cave", icon: 'candypop/Ivory Candypop Bud' },
         { name: "Bulblax Kingdom", type: "cave", icon: 'piklopedia/Emperor Bulblax' },
         { name: "Snagret Hole", type: "cave", icon: 'piklopedia/Burrowing Snagret' },
 
