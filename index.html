@@ -13,6 +13,7 @@
     <script src="https://apis.google.com/js/api.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
     <script src="https://myekul.github.io/shared-assets/ballpit.js"></script>
+    <!-- <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script> -->
 </head>
 
 <body>
@@ -20,7 +21,7 @@
         <header>
             <div class="container" style="gap:10px;padding-top:10px">
                 <img src="images/favicon.png" style="height:60px">
-                <div class="text-shadow" style="font-family: 'pikmin';font-size:200%;color:white">Pikmin Place</div>
+                <div style="font-size:200%">Pikmin Place</div>
             </div>
         </header>
         <main>
@@ -28,15 +29,19 @@
                 <div class="container headerRow" style="gap:8px">
                     <div id="sidebarDiv"></div>
                     <div id='collections' class="container" style="margin:0">
-                        <div id='piklopediaButton' class="button" style="width:40px" onclick="changeCollection('piklopedia')"><img
-                                src="images/2/piklopedia/Red Bulborb.png" style="height:20px"></div>
-                        <div id='treasureButton' class="button" style="width:40px" onclick="changeCollection('treasure')"><img
-                                src="images/2/treasure/129.png" style="height:20px">
+                        <div id='piklopediaButton' class="button" style="width:40px"
+                            onclick="changeCollection('piklopedia')"><img src="images/2/piklopedia/Red Bulborb.png"
+                                style="height:20px"></div>
+                        <div id='treasureButton' class="button" style="width:40px"
+                            onclick="changeCollection('treasure')"><img src="images/2/treasure/129.png"
+                                style="height:20px">
                         </div>
-                        <div id='candypopButton' class="button" style="width:40px" onclick="changeCollection('candypop')"><img
-                                src="images/2/candypop/Violet Candypop Bud.png" style="height:20px">
+                        <div id='candypopButton' class="button" style="width:40px"
+                            onclick="changeCollection('candypop')"><img src="images/2/candypop/Violet Candypop Bud.png"
+                                style="height:20px">
                         </div>
-                        <div id="allButton" class="button" style="width:40px" onclick="changeCollection('all')">ALL</div>
+                        <div id="allButton" class="button" style="width:40px" onclick="changeCollection('all')">ALL
+                        </div>
                     </div>
                     <div class="dot"></div>
                     <input id='checkbox_unique' type="checkbox" onchange="action()">Unique
@@ -45,8 +50,13 @@
                 <div id="tabsDiv"></div>
             </div>
             <div id="areaSelect" class="container"></div>
-            <div id="boardTitle" class="container sticky" style="top:90px;max-width: 50%;"></div>
-            <div id="content"></div>
+            <div class="container">
+                <div id="boardTitle" class="container sticky" style="top:90px;max-width: 50%;margin:0"></div>
+                <div id='closeBoardTitle' class='grow' style='display:none;margin-left:10px' onclick="globalArea='all';action()"><i
+                        class="fa fa-close"></i>
+                </div>
+            </div>
+            <div id="content" style="margin-top:10px"></div>
         </main>
         <footer></footer>
     </div>
@@ -54,6 +64,7 @@
 <script src="code/general.js"></script>
 <script src="code/constants.js"></script>
 <script src="code/variables.js"></script>
+<script src="code/tabs.js"></script>
 <script src="code/main.js"></script>
 
 </html>

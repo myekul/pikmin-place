@@ -26,3 +26,31 @@
 .formidableoak {
     background-color: goldenrod;
 }
+
+.concrete {
+    background-color: gray;
+}
+
+.garden {
+    background-color: lightgreen;
+}
+
+.metal {
+    background-color: orange;
+}
+
+.snow {
+    background-color: snow;
+}
+
+.soil {
+    background-color: sienna
+}
+
+.toybox {
+    background-color: burlywood;
+}
+
+.tiles {
+    background-color: lightskyblue;
+}

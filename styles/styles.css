@@ -1,6 +1,17 @@
 :root {
     --banner: limegreen;
+    --bannerText: white;
+    --font: 'pikmin';
     --font2: 'pikmin'
+}
+
+body {
+    text-shadow: 2px 2px 2px black
+}
+
+.button,
+i {
+    text-shadow: none
 }
 
 header {
@@ -9,10 +20,6 @@ header {
 
 #tabs {
     width: 250px !important
-}
-
-table {
-    background-color: var(--background1);
 }
 
 td {
@@ -29,12 +36,12 @@ td {
     text-shadow: none !important
 }
 
-#titleText,
-.text-shadow {
-    color:white;
-    text-shadow: 2px 2px 2px black
+#myekuls {
+    font-size: 90% !important
 }
 
-#myekuls{
-    font-size:90% !important
+.sublevel {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /* gap: 10px; */
 }
