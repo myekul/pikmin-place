@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" href="https://myekul.github.io/shared-assets/styles.css">
+    <link rel="stylesheet" href="https://myekul.github.io/shared-assets/styles/styles.css">
     <link rel="stylesheet" href="https://myekul.github.io/shared-assets/myekul/myekul.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/custom.css">
@@ -11,8 +11,6 @@
     <script src="https://myekul.github.io/shared-assets/utils.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.min.js"></script>
     <script src="https://apis.google.com/js/api.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
-    <script src="https://myekul.github.io/shared-assets/ballpit.js"></script>
     <!-- <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script> -->
 </head>
 
@@ -26,7 +24,7 @@
         </header>
         <main>
             <div class="sticky">
-                <div class="container headerRow" style="gap:8px">
+                <div id='headerRow' class="container" style="gap:8px">
                     <div id="sidebarDiv"></div>
                     <div id='collections' class="container" style="margin:0">
                         <div id='piklopediaButton' class="button" style="width:40px"
@@ -46,14 +44,14 @@
                     <div class="dot"></div>
                     <input id='checkbox_unique' type="checkbox" onchange="action()">Unique
                 </div>
-                <div class="progress"></div>
+                <div id="progress"></div>
                 <div id="tabsDiv"></div>
             </div>
             <div id="areaSelect" class="container"></div>
             <div class="container">
                 <div id="boardTitle" class="container sticky" style="top:90px;max-width: 50%;margin:0"></div>
-                <div id='closeBoardTitle' class='grow' style='display:none;margin-left:10px' onclick="globalArea='all';action()"><i
-                        class="fa fa-close"></i>
+                <div id='closeBoardTitle' class='grow' style='display:none;margin-left:10px'
+                    onclick="globalArea='all';action()"><i class="fa fa-close"></i>
                 </div>
             </div>
             <div id="content" style="margin-top:10px"></div>

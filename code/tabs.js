@@ -71,7 +71,6 @@ function generateSublevels() {
             HTMLContent += `<tr>`
             areaSet[globalGame].forEach(area => {
                 if (area.area == areaObject.id) {
-                    console.log(area.id)
                     HTMLContent += getSublevel(area, i)
                 }
             })
@@ -112,12 +111,11 @@ function generateBallpit() {
     if (globalArea == 'all') {
         changeArea(areaSet[globalGame][0].id)
     } else {
-        let HTMLContent = ballpitRefresh()
+        let HTMLContent = ''
         if (globalArea != 'all') {
             const areaObject = areaSet[globalGame].find(thisarea => thisarea.id == globalArea)
             if (areaObject.type == 'area') HTMLContent += `<div class='container no-select'><img src='images/map/${globalGame}/${globalArea}.png' style='padding-top:10px;height:330px;width:auto' draggable=false></div>`
         }
-        HTMLContent += `<div id='ballpit'>`
         filteredData.forEach(elem => {
             if (uniqueElem.checked) {
                 HTMLContent += addBallpit(elem)
@@ -141,9 +139,8 @@ function generateBallpit() {
                 }
             }
         })
-        HTMLContent += `</div>`
-        document.getElementById('content').innerHTML = HTMLContent
-        ballpitEngine(35, -50)
+        document.getElementById('content').innerHTML = `<div id='ballpit'></div>`
+        setBallpit(HTMLContent, 35, -50)
     }
     function addBallpit(elem) {
         let size = 50
