@@ -6,11 +6,6 @@ setSidebar(generateSidebar())
     .then(() => {
         changeGame(2, true)
     })
-const fontAwesomeSet = {
-    home: ['Home', 'home'],
-    sublevels: ['Sublevels', 'bars'],
-    ballpit: ['Ballpit', 'smile-o']
-}
 function generateSidebar() {
     let HTMLContent = ''
     for (i = 1; i <= 3; i++) {
