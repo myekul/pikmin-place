@@ -1,4 +1,5 @@
 gapi.load('client', () => loadClient(true));
+setMyekulProjects('pikmin')
 setFooter('2025')
 setTabs(['home', 'sublevels', null, 'ballpit'])
 initializeHash('ballpit')

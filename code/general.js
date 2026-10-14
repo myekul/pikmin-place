@@ -24,10 +24,11 @@ function getAreaIcon(area, size = 40) {
 }
 function openModalPikmin(elemIndex) {
     const elem = allData[elemIndex]
-    let HTMLContent = `<div>`
-    HTMLContent += `<div class='container'>${getImage(elem, 80)}</div>`
-    HTMLContent += `<div class='container' style='font-size:150%'>${elem.name}</div>`
-    HTMLContent += `</div>`
+    let HTMLContent = `
+    <div>
+        <div class='container'>${getImage(elem, 80)}</div>
+        <div class='container' style='font-size:150%'>${elem.name}</div>
+    </div>`
     openModal(HTMLContent, 'INFO')
 }
 function getOnclick(elem) {
@@ -55,15 +56,17 @@ function updateBoardTitle() {
 }
 function generateAreaSelect() {
     let HTMLContent = ''
-    HTMLContent = `<table id='areaSelectTable' class='shadow' style='margin-bottom:10px'>
-    <tr style='color:gold;height:24px'>`
+    HTMLContent = `
+    <table id='areaSelectTable' class='shadow' style='margin-bottom:10px'>
+        <tr style='color:gold;height:24px'>`
     areaSet[globalGame].forEach(area => {
         if (area.type == 'area') {
             HTMLContent += `<td id='area_${area.id}Button' class='${area.id} grow' style='padding:0 10px;min-width:170px' colspan=${area.num} onclick="changeArea('${area.id}')">${area.name}</td>`
         }
     })
-    HTMLContent += `<td id='area_allButton' rowspan=2 class='grow' style='background-color:mediumpurple;padding:0 10px' onclick="changeArea('all')">ALL</td>`
-    HTMLContent += `</tr>`
+    HTMLContent += `
+        <td id='area_allButton' rowspan=2 class='grow' style='background-color:mediumpurple;padding:0 10px' onclick="changeArea('all')">ALL</td>
+    </tr>`
     if (globalGame == 2) {
         HTMLContent += `<tr>`
         areaSet[2].forEach(area => {

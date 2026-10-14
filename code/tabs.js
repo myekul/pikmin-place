@@ -1,8 +1,12 @@
 function generateHome() {
-    let HTMLContent = `<div class='container' style="gap:30px;align-items: flex-start">`
-    HTMLContent += `<table class='shadow background1'>`
+    let HTMLContent = `
+    <div class='container' style="gap:30px;align-items: flex-start">
+        <table class='shadow background1'>`
     if (globalArea == 'all') {
-        HTMLContent += `<tr class='sticky' style='top:150px'><td></td><td></td>`
+        HTMLContent += `
+        <tr class='sticky' style='top:150px'>
+            <td></td>
+            <td></td>`
         areaSet[globalGame].forEach(area => {
             HTMLContent += `<td class='${area.area} grow' onclick="changeArea('${area.id}')">${area.type == 'area' ? `<img src='images/map/${globalGame}/${area.id}.png' style='height:25px'>` : getAreaIcon(area, 30)}</td>`
             if (area.id == 'snagrethole') HTMLContent += `<td></td>`
@@ -16,9 +20,10 @@ function generateHome() {
         }
         type = elem.type
         const imgtd = `<td class='container'>${getImage(elem, 25)}</td>`
-        HTMLContent += `<tr class='${getRowColor(index)} clickable' ${getOnclick(elem)}>
-        <td style='text-align:right'>${elem.name}</td>
-        ${imgtd}`
+        HTMLContent += `
+        <tr class='${getRowColor(index)} clickable' ${getOnclick(elem)}>
+            <td style='text-align:right'>${elem.name}</td>
+            ${imgtd}`
         if (globalArea == 'all') {
             areaSet[globalGame].forEach(area => {
                 const content = math.sum(elem[area.id])
@@ -54,13 +59,12 @@ function generateSublevels() {
             if (globalArea == 'all' || area.area == areaObject.id) {
                 if (area.type == 'cave') {
                     HTMLContent += `
-                <td class='${area.area} grow' style='padding:0 10px' onclick="changeArea('${area.id}')">
-                    <div class='container' style='gap:8px'>
-                        <div>${getAreaIcon(area, 42)}</div>
-                        <div>${area.name}</div>
-                    </div>
-                </td>
-                `
+                    <td class='${area.area} grow' style='padding:0 10px' onclick="changeArea('${area.id}')">
+                        <div class='container' style='gap:8px'>
+                            <div>${getAreaIcon(area, 42)}</div>
+                            <div>${area.name}</div>
+                        </div>
+                    </td>`
                 }
             }
         })
