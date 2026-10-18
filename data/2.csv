@@ -1,0 +1,271 @@
+family,type,id,name,important,valleyofrepose,awakeningwood,perplexingpool,wistfulwild,emergencecave,subterraneancomplex,frontiercavern,holeofbeasts,whiteflowergarden,bulblaxkingdom,snagrethole,citadelofspiders,gluttonskitchen,showerroom,submergedcastle,cavernofchaos,holeofheroes,dreamden
+Grub-dog,e,,Red Bulborb,,1,1,,,,,,"0,0,0,1",,,,,,,,,"0,0,0,0,0,0,0,0,1","0,0,0,0,2,0,0,0,0,0,0,0,2"
+Grub-dog,e,,Hairy Bulborb,,,,,,,2,"2,1",,,,,,,,,,"0,0,0,0,0,0,0,0,1","0,1,0,0,0,0,0,0,0,0,0,0,2"
+Grub-dog,e,,Orange Bulborb,,,,,2,,,"0,0,0,0,0,0,3",,,"2,0,0,0,1,2",1,,,"0,1,0,0,0,1",,,"0,0,0,0,0,0,0,0,1","0,0,0,0,0,0,0,0,0,0,0,2,2"
+Breadbug,e,,Dwarf Red Bulborb,,2,2,,5,,,,,,,,,,,,"0,0,0,0,0,0,0,54","0,0,0,0,0,0,0,0,3",
+Breadbug,e,,Snow Bulborb,,,,,,"4,7",9,"6,6",,,,,,,,,,"0,0,0,0,0,0,0,0,3","0,8"
+Breadbug,e,,Dwarf Orange Bulborb,,,,,,,,"0,0,0,0,0,0,10",,,"4,0,0,0,4,5","0,0,0,5,7,1",,,"0,6,0,0,5,7","0,3",,"4,0,0,0,0,0,0,0,3",23
+Grub-dog,e,,Spotty Bulbear,,,,1,,,,"0,0,1",,,,,,"0,0,0,1",,,,"0,0,0,0,0,0,0,0,1","0,0,1"
+Grub-dog,e,,Dwarf Bulbear,,,,6,,,,"0,0,6",,,,,,"10,0,0,5,10",,,,"0,0,0,0,0,0,0,0,6","0,0,9,0,0,0,0,0,0,0,6"
+Grub-dog,e,,Bulborb Larva,,,,,,,,"0,0,0,0,0,0,0,9",,,,,,,,,,,
+Grub-dog,e,,Fiery Bulblax,,1,,1,,,,,,,,,,,,1,"0,0,3","0,0,0,0,0,0,0,0,1","0,0,0,0,1"
+,e,,Water Dumple,,5,,7,,,,"0,0,0,0,0,4",,,,,"0,0,0,3",,"0,0,4",,"0,0,0,0,0,5","0,0,0,0,0,3","0,0,0,0,0,0,0,0,0,5"
+,e,,Bulbmin,,,,,,,,"0,0,1,0,0,1",,,,,,,,"0,1,1,2",,"0,0,0,0,0,0,0,1",
+,e,,Fiery Blowhog,,2,,1,2,,,,,"0,2",,,,,"0,0,0,0,2",,1,"0,0,2","0,0,0,0,4,0,0,0,0,4,2"
+,e,,Watery Blowhog,,1,,,1,,,,,,,"0,0,0,2",,,2,,1,"0,0,2","0,0,0,0,0,0,0,0,0,0,2"
+,e,,Armored Cannon Larva,,1,,,1,,"0,0,3",,,,,"0,0,0,2",,"0,0,0,0,3",,,,"0,0,0,0,0,0,2","0,0,0,10,0,3"
+,e,,Decorated Cannon Beetle,,2,,,1,,,"0,2,0,0,0,3",,,,,,,,,,"0,0,0,0,0,0,2",
+,e,,Puffy Blowhog,,,,,,,,,,,,,,"0,0,1",,,"0,0,0,0,0,0,2","0,0,1",
+,e,,Withering Blowhog,,1,,1,3,,,,,,"0,0,3",,,,"0,0,0,0,2","0,0,2","0,0,0,0,0,0,3","0,0,2","0,0,0,0,1"
+,e,,Gatling Groink,,,,,1,,"0,0,0,0,0,0,2",,,,,,,,,,"0,0,0,0,0,0,0,2",,"0,1,0,0,0,0,0,0,0,1"
+,e,,Iridescent Flint Beetle,,,1,,,,,,,,,,"0,0,0,0,1",,,,"0,0,0,0,2","0,0,0,0,0,0,0,0,0,0,0,1","0,0,0,0,0,0,0,0,1"
+,e,,Iridescent Glint Beetle,,,2,,,,,"0,0,0,0,0,0,1",,,"0,0,0,1",,,,,"0,0,0,1",,"0,0,0,0,2,0,0,0,0,0,0,1","0,0,0,0,0,0,0,0,1"
+,e,,Doodlebug,,,,,,,,3,,,,,,,"0,0,0,0,0,1",,,"0,0,0,0,0,0,0,2,0,0,0,1","0,0,0,0,0,0,0,0,2"
+,e,,Female Sheargrub,,,5,,,,,,6,6,"0,0,3",,,"0,4",,,,5,
+,e,,Male Sheargrub,,,4,,,,,,4,4,,"4,5",,"0,4",,,,5,
+,e,,Shearwig,,,,11,3,,,,,,,"0,3",5,,,,,5,
+,e,,Cloaking Burrow-nit,,1,3,,1,,,,,,,"0,2",,"0,1",,,"0,0,0,0,0,0,3",2,"0,0,0,0,0,0,0,0,0,0,4"
+,e,,Ravenous Whiskerpillar,,,2,3,,,,,,,,,,,,,,,
+,e,,Anode Beetle,,,,,,,"0,0,0,0,0,6","0,0,0,8",,,"0,0,0,5",,"0,0,8","0,0,10,0,0,6",,"0,0,4","0,0,0,0,0,6","0,6","0,0,0,8"
+,e,,Mitite,,,,,,,,,"0,0,0,10",,"0,0,0,0,0,10",,,,,,,"0,0,0,0,0,0,0,0,0,20",
+,e,,Hermit Crawmad,,,,2,1,,,,,,,,"0,0,0,2",,"0,0,1",,,"0,0,0,0,0,2",2
+,e,,Swooping Snitchbug,,,,2,1,,"0,1","0,0,0,2",,,,"0,0,1","0,0,3",,,,"0,3","0,2",
+,e,,Bumbling Snitchbug,,,,,,,3,"0,0,0,3",,,,,,,"0,0,0,0,0,1",,"0,0,0,0,0,0,0,0,1","0,1","0,0,0,0,0,0,3,0,0,0,1"
+,e,,Careening Dirigibug,,,,,,,"0,3,0,0,0,2,1",,,,,,,,,"0,1,0,2","3,0,0,0,0,0,0,0,2","0,2","0,0,2,0,0,0,4"
+,e,,Antenna Beetle,,,,,,,,,,,,"0,0,0,0,1,1",,,,,,"0,1","0,0,0,0,0,0,0,1,0,0,0,1"
+,e,,Lesser Spotted Jellyfloat,,,,,,,,,,,,,,,"0,1,4,0,1",,,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,2","2,0,0,0,0,1,0,0,0,2"
+,e,,Greater Spotted Jellyfloat,,,,,,,,,,,,,,,"0,0,1",,,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,2","0,0,0,0,0,1"
+,e,,Fiery Dweevil,,,,,,,"0,0,0,0,0,2",,,,"0,2,0,0,0,3",,"0,3",,,"0,4",,"0,0,0,0,0,0,0,0,0,0,0,0,0,3","0,0,0,0,0,0,0,4"
+,e,,Anode Dweevil,,,,,,,,,,,,,,,"0,0,0,0,0,1","0,0,3",,"0,0,0,0,0,0,0,0,0,0,0,0,0,2","0,0,0,0,0,0,0,3"
+,e,,Caustic Dweevil,,,,,,,,"0,0,0,0,2",,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,2","0,0,0,0,0,0,0,4"
+,e,,Munge Dweevil,,,,,,,"0,0,0,0,0,2",,,,,,,,"0,0,0,0,2,1",,,"0,0,0,0,0,0,0,0,0,0,0,0,0,3","0,0,0,0,0,0,0,3"
+,e,,Volatile Dweevil,,,,,,,"0,0,0,0,8,0,1",,,,,,,,"0,0,0,0,0,1","0,0,0,5",,"0,0,5",
+,e,,Toady Bloyster,,,,1,,,,,,,,,,,,,,,
+,e,,Yellow Wollyhop,,,2,6,1,,,,,,,,"0,2",,,,,"0,0,0,0,0,2",
+,e,,Wollyhop,,,,,,,,,,,"0,0,0,1",,,,"2,0,1,0,5,1","0,0,1","0,0,0,0,0,2","0,0,0,0,0,1","0,0,0,0,0,0,0,0,0,2,0,2"
+,e,,Wolpole,,,3,5,,,,,,,,,,,7,,,"0,0,0,0,0,6",
+,e,,Creeping Chrysanthemum,,,3,,3,,,,,,,"0,2",,,,,"0,0,5",2,
+,e,,Skitter Leaf,,,,6,,,,,,,,,5,,,,,4,
+,e,,Unmarked Spectralid,,,8,,,,,"0,0,0,0,1",,,,,,,"0,0,0,1",,,"0,0,0,0,2",
+,e,,Honeywisp,,2,3,2,,,,,,"0,0,3","0,0,0,3",,,,,,,"0,0,0,0,7",
+,e,,Mamuta,,,,,,,,"0,0,0,0,4",,,,,,,,,"0,0,2","0,0,0,0,2",
+,e,,Breadbug,,,,,,,,,,,,,,"0,3,3,2,0,2",,,,,"0,0,0,0,0,0,0,0,0,0,1"
+,e,,Empress Bulblax,t,,,,,,,"0,0,0,0,0,0,0,1","0,0,0,0,1",,,,,,,,,"0,0,0,0,0,0,0,0,0,0,1",
+,e,,Burrowing Snagret,t,1,1,,,,,,,"0,0,0,0,1",,"0,0,2,0,0,2",,,,,,"0,0,0,1",
+,e,,Beady Long Legs,t,,,1,,,,,,,,,"0,0,0,0,1",,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,1",
+,e,,Emperor Bulblax,t,,,,,,,,,,"0,0,0,0,0,0,1",,,,,,"0,0,0,2","0,0,0,0,0,0,0,0,0,2",
+,e,,Giant Breadbug,t,,,,,,,,,,,,,"0,0,0,0,0,1",,,,,
+,e,,Pileated Snagret,t,,,,,,,,,,,"0,0,0,0,0,0,1",,,,,,"0,0,0,1",
+,e,,Man-at-Legs,t,,,,,,"0,0,0,0,0,0,0,0,1",,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,1",
+,e,,Ranging Bloyster,t,,,,,,,,,,,,,,"0,0,0,0,0,0,1",,,"0,0,0,0,0,0,1",
+,e,,Waterwraith,t,,,,,,,,,,,,,,,"0,0,0,0,1",,,
+,e,,Segmented Crawbster,t,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,1",,
+,e,,Raging Long Legs,t,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,1",
+,e,,Titan Dweevil,t,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,1"
+Succulent,t,1,Cupid's Grenade,,,,,,,,,,,,"0,0,0,1",,,,,,,
+Succulent,t,2,Sunseed Berry,,,1,,,,,,,,,,,,,,,,
+Succulent,t,3,Combustion Berry,,,,,,,,,,,,"0,1",,,,,,,
+Succulent,t,4,Seed of Greed,,,,,1,,,,,,,,,,,,,,
+Succulent,t,5,Disguised Delicacy,,,,,,,,,,,,,,,,,,,1
+Succulent,t,6,Insect Condo,,,,,,,,,,,,,,,,,,,"0,0,0,0,1"
+Succulent,t,7,Citrus Lump,,,,,,1,,,,,,,,,,,,,
+Nature's Candy,t,8,Spiny Alien Treat,,1,,,,,,,,,,,,,,,,,
+Nature's Candy,t,9,Anxious Sprout,,,,,,,,,,,"0,0,0,0,1",,,,,,,,
+Nature's Candy,t,10,Child of the Earth,,,,,,,,,,,,,,,,,"0,0,1",,
+Nature's Candy,t,11,Love Nugget,,,,,,,,,,,,,1,,,,,,
+Nature's Candy,t,12,Infernal Vegetable,,,,,,,,,,,,,,,,,"0,0,1",,
+Nature's Candy,t,13,Anti-hiccup Fungus,,,,,1,,,,,,,,,,,,,,
+Nature's Candy,t,14,Toxic Toadstool,,,,,,,,,,"0,0,0,1",,,,,,,,,
+Nature's Candy,t,15,Growshroom,,,,,,,,,,,,,,,,,"0,0,0,0,0,1",,
+Nature's Candy,t,16,Onion Replica,,,,1,,,,,,,,,,,,,,,
+Xenoflora,t,17,Science Project,,,,,,,,,,,,"0,0,0,0,0,1",,,,,,,
+Xenoflora,t,18,Pilgrim Bulb,,,1,,,,,,,,,,,,,,,,
+Xenoflora,t,19,Arboreal Frippery,,,,,,,,,,,,,,,"0,0,0,1",,,,
+Xenoflora,t,20,Conifer Spire,,,,,1,,,,,,,,,,,,,,
+Xenoflora,t,21,Armored Nut,,,,,1,,,,,,,,,,,,,,
+Xenoflora,t,22,Corpulent Nut,,,,,,,,,,,,,,,,,,1,
+Gourmet,t,23,Meat of Champions,,,,,,,,,,,,,,"0,0,0,0,0,1",,,,,
+Gourmet,t,24,Hideous Victual,,,,,,,,,,,,,,"0,0,0,0,0,1",,,,,
+Gourmet,t,25,Meat Satchel,,,,,,,,,,,,"0,0,1",,,,,,,
+Gourmet,t,26,Taste Sensation,,,,,,,,,,,,"0,1",,,,,,,
+Gourmet,t,27,Triple Sugar Threat,,,,,,,,,,,,"0,0,0,0,0,1",,,,,,,
+Sweet Tooth,t,28,Compelling Cookie,,,,,,,,,,,,,,,,"0,0,1",,,
+Sweet Tooth,t,29,Impenetrable Cookie,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,1",,
+Sweet Tooth,t,30,Bug Bait,,,,,,,,,,,,,,,,1,,,
+Sweet Tooth,t,31,Imperative Cookie,,,,,,,,,,,,,,"0,1",,,,,
+Sweet Tooth,t,32,Comfort Cookie,,,,,,,,,,,,,,,,"0,1",,,
+Sweet Tooth,t,33,Succulent Mattress,,,,,,,,,,,,,,,,"0,0,1",,,
+Sweet Tooth,t,34,King of Sweets,,,,,,,,,,,,,"0,0,0,1",,,,,,
+Sweet Tooth,t,35,Enamel Buster,,,,,,,,,,,,,,,,,1,,
+Sweet Tooth,t,36,Diet Doomer,,,,,,,,,,,,,,,,1,,,
+Sweet Tooth,t,37,Pale Passion,,,,,,,,,,,,,,,,"0,0,0,1",,,
+Sweet Tooth,t,38,White Goodness,,,,,,,,,,,,,,"0,0,0,1",,,,,
+Sweet Tooth,t,39,Chocolate Cushion,,,,,,,,,,,,,,,,"0,1",,,
+Sweet Tooth,t,40,Sweet Dreamer,,,,,,,,,,,,,,"0,0,0,0,0,1",,,,,
+Sweet Tooth,t,41,Confection Hoop,,,,,,,,,,,,,,,,"0,1",,,
+Sweet Tooth,t,42,Pastry Wheel,,,,,,,,,,,,,,,,1,,,
+Paleontology,t,43,Possessed Squash,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,1"
+Paleontology,t,44,Fossilized Ursidae,,1,,,,,,,,,,,,,,,,,
+Paleontology,t,45,Colossal Fossil,,,,,,,,,,,"0,0,0,0,0,1",,,,,,,,
+Paleontology,t,46,Leviathan Feather,,,,,,,,,,,,1,,,,,,,
+Paleontology,t,47,Olimarnite Shell,,,,,,,,,,,"0,0,1",,,,,,,,
+Paleontology,t,48,Fortified Delicacy,,,,1,,,,,,,,,,,,,,,
+Paleontology,t,49,Scrumptious Shell,,,,,,,,,,,,,,,"0,0,1",,,,
+Paleontology,t,50,Memorial Shell,,,,,,,,,,,,,"0,0,1",,,,,,
+Paleontology,t,51,Mysterious Remains,,,,,,,,,,,,,,,,,"0,0,0,1",,
+Ancient Secrets,t,52,Crystal King,,,,,,,,,,,"0,0,0,1",,,,,,,,
+Ancient Secrets,t,53,Future Orb,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,1"
+Ancient Secrets,t,54,Gyroid Bust,,,,,,,,,,,"0,0,0,0,0,0,1",,,,,,,,
+Ancient Secrets,t,55,Unknown Merit,,,,,,,,,,,"0,0,0,1",,,,,,,,
+Ancient Secrets,t,56,Lustrous Element,,,,,,,,,,,,,,,,,,"0,0,0,1",
+Ancient Secrets,t,57,Mirrored Element,,,,,,,,,,,,,,,,,,,"0,0,0,1"
+Cook's Arsenal,t,58,Vorpal Platter,,,,,,,,,,,,,,,"0,0,1",,,,
+Cook's Arsenal,t,59,Invigorator,,,,,,,,,,,,,,"0,0,0,1",,,,,
+Cook's Arsenal,t,60,Milk Tub,,,,,,,,,,,,,,,,,"0,0,0,1",,
+Cook's Arsenal,t,61,Merciless Extractor,,,,,,,,,,,,,,,1,,,,
+Cook's Arsenal,t,62,Broken Food Master,,,,,,,,,,,,,,,"0,0,0,0,1",,,,
+Cook's Arsenal,t,63,Utter Scrap,,1,,,,,,,,,,,,,,,,,
+Tortured Artist,t,64,Decorative Goo,,,1,,,,,,,,,,,,,,,,
+Tortured Artist,t,65,Master's Instrument,,,,,,,,,,,,,,1,,,,,
+Tortured Artist,t,66,Manual Honer,,,,,,,,,,,,,,,,,,,"0,1"
+Tortured Artist,t,67,Implement of Toil,,,,,,,,,,,,,,,,,,,"0,1"
+Tortured Artist,t,68,Heavy-duty Magnetizer,,,,,,,,,,,,"0,0,0,1",,,,,,,
+Tortured Artist,t,69,Harmonic Synthesizer,,,,,,,,,,,,,,"0,0,1",,,,,
+Tortured Artist,t,70,Emperor Whistle,,,,,,,,,,,,"0,0,0,0,1",,,,,,,
+Tortured Artist,t,71,Director of Destiny,,,,,,,,,,,,,,"0,0,1",,,,,
+Modern Amenities,t,72,Sud Generator,,,,,,,,,,,,,,,"0,1",,,,
+Modern Amenities,t,73,Flame of Tomorrow,,,,,,,,,,,,,"0,0,0,1",,,,,,
+Modern Amenities,t,74,Impediment Scourge,,,,1,,,,,,,,,,,,,,,
+Modern Amenities,t,75,Dimensional Slicer,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,1",
+Modern Amenities,t,76,Time Capsule,,,,,,,,,,,,,"0,0,0,1",,,,,,
+Modern Amenities,t,77,Lip Service,,,,,,,,,,,,,"0,1",,,,,,
+Modern Amenities,t,78,Mirrored Stage,,,,,,,,,,,,,,,"0,0,1",,,,
+Modern Amenities,t,79,Behemoth Jaw,,,,,,,,,,,,,,,"0,0,0,0,0,1",,,,
+Frigid,t,80,Joy Receptacle,,,,,,,,"0,1",,,,,,,,,,,
+Frigid,t,81,Fleeting Art Form,,,,,,,,"0,0,1",,,,,,,,,,,
+Frigid,t,82,Danger Chime,,,,,,,,"0,0,1",,,,,,,,,,,
+Frigid,t,83,Spouse Alert,,,,,,,,1,,,,,,,,,,,
+Frigid,t,84,Innocence Lost,,,,,,,,"0,0,0,1",,,,,,,,,,,
+Frigid,t,85,Essential Furnishing,,,,,,,,"0,0,0,0,0,0,1",,,,,,,,,,,
+Frigid,t,86,Icon of Progress,,,,,,,,"0,1",,,,,,,,,,,
+Hyper-technology,t,87,Temporal Mechanism,,1,,,,,,,,,,,,,,,,,
+Hyper-technology,t,88,Mystical Disc,,,,,,,"0,0,0,0,1",,,,,,,,,,,,
+Hyper-technology,t,89,Vacuum Processor,,,,,,,"0,0,0,0,0,1",,,,,,,,,,,,
+Hyper-technology,t,90,Indomitable CPU,,,,,,,"0,0,0,0,0,0,1",,,,,,,,,,,,
+Hyper-technology,t,91,Network Mainbrain,,,,,,,"0,1",,,,,,,,,,,,
+Hyper-technology,t,92,Space Wave Receiver,,,,,,,"0,0,0,0,0,1",,,,,,,,,,,,
+Hyper-technology,t,93,Sulking Antenna,,,,,,,,,,,,,,"0,0,0,0,1",,,,,
+Hyper-technology,t,94,Nouveau Table,,,,,,,1,,,,,,,,,,,,
+Industrial Set,t,95,Omega Flywheel,,,,,,,"0,0,1",,,,,,,,,,,,
+Industrial Set,t,96,Spirit Flogger,,,,,,,"0,1",,,,,,,,,,,,
+Industrial Set,t,97,Superstrong Stabilizer,,,,,,,"0,0,1",,,,,,,,,,,,
+Industrial Set,t,98,Repair Juggernaut,,,,,,,"0,0,0,0,0,1",,,,,,,,,,,,
+Industrial Set,t,99,Adamantine Girdle,,,,,,,"0,0,0,0,1",,,,,,,,,,,,
+Industrial Set,t,100,Massage Girdle,,,,1,,,,,,,,,,,,,,,
+Industrial Set,t,101,Superstick Textile,,,,,,,,,,"0,0,1",,,,,,,,,
+Industrial Set,t,102,Exhausted Superstick,,,,,,,1,,,,,,,,,,,,
+Industrial Set,t,103,Furious Adhesive,,,,,,,"0,0,0,0,0,0,1",,,,,,,,,,,,
+Husband's Tears,t,104,Petrified Heart,,,,,,,,,,"0,1",,,,,,,,,
+Husband's Tears,t,105,Eternal Emerald Eye,,,,,,,,,,,"0,0,0,0,0,1",,,,,,,,
+Husband's Tears,t,106,Regal Diamond,,,,,,,,,,,,,"0,0,0,0,1",,,,,,
+Husband's Tears,t,107,Tear Stone,,,,,,,,,,,"0,1",,,,,,,,
+Husband's Tears,t,108,Princess Pearl,,,,,,,,,,,,,,,,,"0,0,0,0,0,1",,
+Husband's Tears,t,109,Crystal Clover,,,,,,,,,,,1,,,,,,,,
+Space Love,t,110,Unspeakable Wonder,,1,,,,,,,,,,,,,,,,,
+Space Love,t,111,Essence of Rage,,,,,,,,1,,,,,,,,,,,
+Space Love,t,112,Essence of Despair,,,,,,,,,,,,,,,,,"0,1",,
+Space Love,t,113,Essence of True Love,,,,,,,,,,,,,,,,,,"0,1",
+Space Love,t,114,Essence of Desire,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,1"
+Space Love,t,115,Pink Menace,,1,,,,,,,,,,,,,,,,,
+Space Love,t,116,Joyless Jewel,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,1",
+Space Love,t,117,Frosty Bauble,,,,,,,,,,,,,,,,,"0,1",,
+Space Love,t,118,Gemstar Wife,,,,,,,,,,,,,,,,,"0,1",,
+Space Love,t,119,Gemstar Husband,,,,,,,,"0,0,1",,,,,,,,,,,
+Space Love,t,120,Universal Com,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,1"
+Crystallized Emotion,t,121,Omniscient Sphere,,,,,,,,"0,0,0,1",,,,,,,,,,,
+Crystallized Emotion,t,122,Crystallized Telepathy,,,,,,,,,,,,"0,0,0,1",,,,,,,
+Crystallized Emotion,t,123,Love Sphere,,,,,,,,,,,,,,,,,,"0,0,1",
+Crystallized Emotion,t,124,Crystallized Telekinesis,,,,,,,,,,,,1,,,,,,,
+Crystallized Emotion,t,125,Mirth Sphere,,,,,,,,,,,,,,,,,1,,
+Crystallized Emotion,t,126,Crystallized Clairvoyance,,,,,,,,,,,,"0,0,0,0,1",,,,,,,
+Dream,t,127,Maternal Sculpture,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,1",,
+Dream,t,128,Extreme Perspirator,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,1"
+Dream,t,129,Rubber Ugly,,,,,,,,,,,,,,,"0,0,0,0,0,1",,,,
+Dream,t,130,Paradoxical Enigma,,,,,,,,,,,,,"0,1",,,,,,
+Dream,t,131,Silencer,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,1",,
+Dream,t,132,Wiggle Noggin,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,1",,
+Dream,t,133,Coiled Launcher,,,,,,,"0,0,1",,,,,,,,,,,,
+Dream,t,134,Boom Cone,,,,,,,,,,,,,,"0,0,0,0,1",,,,,
+Dream,t,135,Flame Tiller,,,,,,,,"0,0,0,0,0,0,1",,,,,,,,,,,
+Dream,t,136,Doomsday Apparatus,,,,,1,,,,,,,,,,,,,,
+Dream,t,137,Aquatic Mine,,,,1,,,,,,,,,,,,,,,
+Dream,t,138,Stupendous Lens,,,,,,,,,,,,"0,0,0,0,0,1",,,,,,,
+Dream,t,139,Air Brake,,,1,,,,,,,,,,,,,,,,
+Dream,t,140,Worthless Statue,,,,,,,,"0,0,0,0,0,1",,,,,,,,,,,
+Dream,t,141,Priceless Statue,,,,,,,,"0,0,0,0,0,1",,,,,,,,,,,
+Dream,t,142,Boss Stone,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,1"
+Dream,t,143,Luck Wafer,,,,,,,,,"0,0,0,1",,,,,,,,,,
+Dream,t,144,Talisman of Life,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,1"
+Dream,t,145,Strife Monolith,,,,,,,,,"0,0,1",,,,,,,,,,
+Dream,t,146,Chance Totem,,,1,,,,,,,,,,,,,,,,
+Blast from the Past,t,147,Dream Architect,,,,,,,,,"0,0,0,1",,,,,,,,,,
+Blast from the Past,t,148,Stone of Glory,,,,,,,,,1,,,,,,,,,,
+Blast from the Past,t,149,Glee Spinner,,,,,,,,,,,,,,,,,,,"0,0,1"
+Blast from the Past,t,150,Cosmic Archive,,,,,,,,,"0,0,1",,,,,,,,,,
+Blast from the Past,t,151,Remembered Old Buddy,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,1",
+Blast from the Past,t,152,Fond Gyro Block,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,1",
+Blast from the Past,t,153,Memorable Gyro Block,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,1",
+Blast from the Past,t,154,Lost Gyro Block,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,1",
+Blast from the Past,t,155,Favorite Gyro Block,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,1",
+Blast from the Past,t,156,Treasured Gyro Block,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,1",
+Mystical Energy,t,157,Proton AA,,,,,,,,,,,,,,,,"0,0,0,1",,,
+Mystical Energy,t,158,Durable Energy Cell,,,,,,,,,,,,,,,"0,1",,,,
+Mystical Energy,t,159,Courage Reactor,,1,,,,,,,,,,,,,,,,,
+Mystical Energy,t,160,Fuel Reservoir,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,1",,
+Massive Receptacle,t,161,Drone Supplies,,,,,,,,,,,,,,,,"0,0,0,1",,,
+Massive Receptacle,t,162,Patience Tester,,,,,,,,,,,,,"0,0,1",,,,,,
+Massive Receptacle,t,163,Endless Repository,,,,,,,,,,,,,,,"0,0,0,0,1",,,,
+Massive Receptacle,t,164,Fruit Guard,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,1",,
+Massive Receptacle,t,165,Nutrient Silo,,,,,,,,,,,,,,,,,,"0,0,0,0,0,1",
+Massive Receptacle,t,166,Stringient Container,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,1"
+Survival,t,167,Survival Ointment,,,,,,,,,,"0,0,0,1",,,,,,,,,
+Survival,t,168,Healing Cask,,,1,,,,,,,,,,,,,,,,
+Ancient Ad,t,169,Abstract Masterpiece,,,,,,,,,,,,,,,"0,0,0,0,0,1",,,,
+Ancient Ad,t,170,Optical Illustration,,,,1,,,,,,,,,,,,,,,
+Ancient Ad,t,171,Thirst Activator,,,,,,,"0,0,0,0,0,0,1",,,,,,,,,,,,
+Ancient Ad,t,172,Yellow Taste Tyrant,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,1"
+Ancient Ad,t,173,Salivatrix,,,,,,,,,,,,"0,0,0,0,0,1",,,,,,,
+Ancient Ad,t,174,Gherkin Gate,,,,1,,,,,,,,,,,,,,,
+Ancient Ad,t,175,Alien Billboard,,,,,,,,,,1,,,,,,,,,
+Ancient Ad,t,176,Activity Arouser,,,,,,,,,,,,,,,,"0,0,1",,,
+Odd Logo,t,177,Hypnotic Platter,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,1"
+Odd Logo,t,178,Massive Lid,,,,,,,,,,,,,,"0,0,0,1",,,,,
+Odd Logo,t,179,Pondering Emblem,,,,,,,,,,,,,,,"0,0,0,0,1",,,,
+Odd Logo,t,180,Happiness Emblem,,,,,,,,,,,,,,"0,1",,,,,
+Odd Logo,t,181,Quenching Emblem,,,,,,1,,,,,,,,,,,,,
+Odd Logo,t,182,Drought Ender,,,,,,,,,,"0,1",,,,,,,,,
+Odd Logo,t,183,Creative Inspiration,,,,,,,,,,,,,"0,1",,,,,,
+Explorer's Friend,t,184,Spherical Atlas,,,,,,"0,1",,,,,,,,,,,,,
+Explorer's Friend,t,185,Geographic Projection,,,1,,,,,,,,,,,,,,,,
+Explorer's Friend,t,186,Prototype Detector,,,,,,,,,"0,0,0,0,1",,,,,,,,,,
+Explorer's Friend,t,187,Five-men Napsack,,,,,,,,,,"0,0,0,0,1",,,,,,,,,
+Explorer's Friend,t,188,Brute Knuckles,,,,,,,,"0,0,0,0,1",,,,,,,,,,,
+Explorer's Friend,t,189,Repugnant Appendage,,,,,,,,"0,0,0,0,0,0,0,1",,,,,,,,,,,
+Explorer's Friend,t,190,Stellar Orb,,,,,,,"0,0,0,0,0,0,0,0,1",,,,,,,,,,,,
+Explorer's Friend,t,191,Forged Courage,,,,,,,,,,,"0,0,0,0,0,0,1",,,,,,,,
+Explorer's Friend,t,192,Dream Material,,,,,,,,,,,,,,"0,0,0,0,0,1",,,,,
+Explorer's Friend,t,193,Justice Alloy,,,,,,,,,,,,"0,0,0,0,0,0,1",,,,,,,
+Explorer's Friend,t,194,Amplified Amplifier,,,,,,,,,,,,,,,"0,0,0,0,0,0,1",,,,
+Explorer's Friend,t,195,Professional Noisemaker,,,,,,,,,,,,,,,,"0,0,0,0,1",,,
+Explorer's Friend,t,196,The Key,,,,,,,,,,,,,"0,0,0,0,1",,,,,,
+Titan Dweevil,t,197,Shock Therapist,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,1"
+Titan Dweevil,t,198,Flare Cannon,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,1"
+Titan Dweevil,t,199,Comedy Bomb,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,1"
+Titan Dweevil,t,200,Monster Pump,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,1"
+Titan Dweevil,t,201,King of Bugs,,,,,,,,,,,,,,,,,,,"0,0,0,0,0,0,0,0,0,0,0,0,0,1"
+,c,,Lapis Lazuli Candypop Bud,,,,,,,,"0,0,0,0,1",,,,"0,0,0,0,0,3",,,,,,"0,0,0,0,0,2",
+,c,,Crimson Candypop Bud,,,,,,,,,,,"1,0,0,0,0,2",,,,,,,"0,0,0,0,0,0,0,2",
+,c,,Golden Candypop Bud,,,,,,,,,,,,,,"0,0,1",,,,,
+,c,,Violet Candypop Bud,,,,,,"0,2","0,0,0,0,0,0,0,3","1,0,0,1,1","0,2,0,1",,"0,0,0,2,0,1","0,0,1","0,1","0,1,0,0,1","0,1,0,0,1","0,0,0,0,2","0,0,0,0,1",,
+,c,,Ivory Candypop Bud,,,,,,,"0,0,1,3","0,0,1,0,1,0,1",,"0,0,3","1,0,1","0,1,1,0,0,1","0,0,0,1",,"1,0,0,0,0,1","0,0,1","0,0,0,0,1",,
+,c,,Queen Candypop Bud,,,,,,,"0,0,0,0,0,0,0,2",,,,,"0,0,0,0,0,1,2","0,0,1","0,0,0,0,1","0,0,0,2",,"0,0,0,1,1","0,0,0,0,1,0,0,1,0,0,0,1",

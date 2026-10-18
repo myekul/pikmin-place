@@ -1,11 +1,10 @@
-gapi.load('client', () => loadClient(true));
 setMyekulProjects('pikmin')
 setFooter('2025')
 setTabs(['home', 'sublevels', null, 'ballpit'])
 initializeHash('ballpit')
 setSidebar(generateSidebar())
     .then(() => {
-        changeGame(2, true)
+        changeGame(2)
     })
 function generateSidebar() {
     let HTMLContent = ''
@@ -15,7 +14,7 @@ function generateSidebar() {
     return HTMLContent
 }
 function processData(data) {
-    allData = convertToObjects(data)
+    allData = data
     allData.forEach((elem, index) => {
         elem.index = index
         const areas = areaSet[globalGame]
@@ -35,12 +34,16 @@ function processData(data) {
     changeCollection(globalCollection)
     showTab(globalTab)
 }
-function changeGame(game, stop) {
-    range = game + '!A:Z'
+function changeGame(game) {
     globalGame = game
     globalArea = 'all'
     document.getElementById('sidebarLogo').src = `images/logo/${globalGame}.png`
-    if (!stop) fetchData()
+    loadData()
+}
+async function loadData() {
+    const response = await fetch(`data/${globalGame}.csv`)
+    const result = Papa.parse(await response.text(), { header: true, skipEmptyLines: true })
+    processData(result.data)
 }
 function changeArea(area) {
     globalArea = area
